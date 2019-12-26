@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  a {
+    color: #6F6F6F;
+  }
+  .no-options {
+    width: 50%;
+    text-align: left;
+    justify-content: flex-start;
+  }
+  .options {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    color: gray;
+    cursor: pointer;
+    text-decoration: underline;
+    h2 {
+      margin: 0 1rem;
+    }
+  }
+}

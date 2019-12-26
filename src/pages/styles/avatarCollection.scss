@@ -1,0 +1,19 @@
+.collection-item {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .item-content {
+        margin: 1rem 5px;
+    }
+    
+    img {
+      width: 11em;
+      height: 12em;
+    }
+    span {
+      width: 11em;
+      margin-left: -11em;
+      position: absolute;
+      background-color: rgba($color: white, $alpha: 0.8);
+    }
+  }

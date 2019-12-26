@@ -1,0 +1,11 @@
+.registration-page {
+  display: flex;
+  font-family: Consolas;
+  justify-content: space-between;
+  & > div {
+    width: 40%;
+    .a-button {
+      font-size: 1rem;
+    }
+  }
+}
